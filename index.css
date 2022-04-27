@@ -1,5 +1,6 @@
 html {
     background-color: rgb(253, 242, 233);
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -21,8 +22,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
-    font-family: 'Rubik', sans-serif;
+    gap: 50px;
 }
 
 nav ul li a:nth-of-type(1),
@@ -42,6 +42,7 @@ nav ul li a:hover {
 .try {
     border: 1px solid rgb(230, 126, 34);
     background-color: rgb(230, 126, 34);
+    font-size: 1.3rem;
     padding: 10px 20px;
     color: white !important;
     border-radius: 1ch;
@@ -49,4 +50,59 @@ nav ul li a:hover {
 
 .try:hover {
     background-color: rgb(207, 113, 31);
+}
+
+.box1 {
+    margin-left: 10rem;
+    width: 40%;
+    float: left;
+}
+
+h1 {
+    font-size: 3.7rem;
+}
+
+#doanvan1 {
+    font-size: 1.5rem;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+}
+
+div ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+
+#try1 {
+    border: 1px solid rgb(230, 126, 34);
+    padding: 20px 30px;
+    border-radius: 1ch;
+    background-color: rgb(230, 126, 34);
+}
+
+#try1:hover {
+    background-color: rgb(207, 113, 31);
+}
+
+#try2 {
+    color: black;
+    border: 5px solid white;
+    padding: 15px 30px;
+    border-radius: 1ch;
+    background-color: white;
+}
+
+#try2:hover {
+    background-color: rgb(253, 242, 233);
+}
+
+.img1 {
+    height: 600px;
+    padding: 30px 80px;
 }
